@@ -13,3 +13,25 @@ El proyecto trabaja con espectrogramas log-Mel generados a partir de señales de
 ├── inferencia.ipynb      # Generación de predicciones para el formato de submission
 ├── README.md
 └── LICENSE
+
+## Cuadernos
+
+### `onthefly.ipynb`
+
+Cuaderno principal de entrenamiento. Incluye la carga de metadatos, limpieza básica del dataset, preprocesamiento de audio, generación de espectrogramas log-Mel durante el entrenamiento y entrenamiento de los modelos.
+
+### `test_local.ipynb`
+
+Cuaderno utilizado para evaluar los modelos sobre un subconjunto local separado del conjunto de entrenamiento. Su objetivo es obtener una referencia adicional del comportamiento del sistema antes de generar predicciones finales.
+
+### `inferencia.ipynb`
+
+Cuaderno de inferencia utilizado para procesar los audios de test y generar el archivo `submission.csv` con el formato requerido por la competición.
+
+## Entorno de ejecución
+
+Los cuadernos fueron preparados y ejecutados principalmente en la plataforma Kaggle, por lo que algunas rutas siguen la estructura habitual de Kaggle, por ejemplo:
+
+```text
+/kaggle/input/
+/kaggle/working/
