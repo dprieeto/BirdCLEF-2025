@@ -24,6 +24,27 @@ Cuaderno de inferencia utilizado para procesar los audios de test y generar el a
 
 Los cuadernos fueron preparados y ejecutados principalmente en la plataforma Kaggle, por lo que algunas rutas siguen la estructura habitual de Kaggle, por ejemplo:
 
-```text
+``text
 /kaggle/input/
 /kaggle/working/
+
+Para ejecutarlos en otro entorno puede ser necesario adaptar las rutas de entrada, los datasets disponibles y los modelos preentrenados utilizados.
+
+## Dataset
+
+El proyecto se basa en el dataset de BirdCLEF 2025, compuesto por grabaciones de especies animales y metadatos asociados. Los audios originales no se incluyen en este repositorio debido a las condiciones de uso del dataset.
+
+## Técnicas utilizadas
+
+- Carga y preprocesamiento de audio.
+- Filtro paso banda y normalización de la señal.
+- Conversión a espectrogramas log-Mel.
+- Entrenamiento on-the-fly.
+- Clasificación multietiqueta.
+- Modelos CNN, EfficientNet-B0 y ResNet-18.
+- Agregación de predicciones por ventanas temporales.
+- Generación de archivo `submission.csv`.
+
+## Licencia
+
+Este proyecto se publica bajo licencia MIT. Consulta el archivo `LICENSE` para más información.
