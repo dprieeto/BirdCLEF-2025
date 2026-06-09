@@ -24,10 +24,10 @@ Cuaderno de inferencia utilizado para procesar los audios de test y generar el a
 
 Los cuadernos fueron preparados y ejecutados principalmente en la plataforma Kaggle, por lo que algunas rutas siguen la estructura habitual de Kaggle, por ejemplo:
 
-``text
+```text
 /kaggle/input/
 /kaggle/working/
-
+```
 Para ejecutarlos en otro entorno puede ser necesario adaptar las rutas de entrada, los datasets disponibles y los modelos preentrenados utilizados.
 
 ## Dataset
