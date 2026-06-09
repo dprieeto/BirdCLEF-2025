@@ -32,7 +32,7 @@ Para ejecutarlos en otro entorno puede ser necesario adaptar las rutas de entrad
 
 ## Dataset
 
-El proyecto se basa en el dataset de BirdCLEF 2025, compuesto por grabaciones de especies animales y metadatos asociados. Los audios originales no se incluyen en este repositorio debido a las condiciones de uso del dataset.
+El proyecto se basa en el dataset de [BirdCLEF+ 2025](https://www.kaggle.com/competitions/birdclef-2025), compuesto por grabaciones de especies animales y metadatos asociados. Los audios originales no se incluyen en este repositorio debido a las condiciones de uso del dataset.
 
 ## Técnicas utilizadas
 
